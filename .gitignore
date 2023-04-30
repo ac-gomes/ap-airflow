@@ -1,2 +1,7 @@
-venv-airflow
+venv
 README.MD
+.env
+.mypy_cache
+dags
+logs
+plugins
