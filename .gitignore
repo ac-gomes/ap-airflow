@@ -1,5 +1,4 @@
 venv
-README.MD
 .env
 __pycache__
 dags
