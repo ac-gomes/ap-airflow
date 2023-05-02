@@ -9,7 +9,10 @@ def main():
     start.set_permissions()
     start.initialize_airflow()
 
-    print(f"Your environment is now ready. Enjoy!")
+    print("""
+        \ndefault password: airflow
+        \ndefault password: airflow
+        \nYour environment is now ready. Enjoy!""")
 
 
 if __name__ == '__main__':
