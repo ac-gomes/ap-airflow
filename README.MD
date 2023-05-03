@@ -1,6 +1,6 @@
 # How to use this little env
 
-This simple app is intended to help beginners to Apache Airflow get ahead even with little knowledge of docker and docker compose.
+This simple app is to help beginners to Apache Airflow get ahead even with little knowledge of docker and docker compose.
 
 **Note**: **For this app to work, docker and docker compose must be installed before**
 
