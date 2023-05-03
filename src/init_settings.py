@@ -1,4 +1,4 @@
-from backports import configparser
+from backports.configparser import ConfigParser
 import os
 
 from os import getenv
@@ -9,7 +9,7 @@ class Config_File:
     """Class to create config file"""
 
     def __init__(self):
-        self.config_object = configparser.ConfigParser()
+        self.config_object = ConfigParser()
 
     def sh_parser(self) -> None:
         """This method will receive all shell commands and prepare it to write to the config file"""

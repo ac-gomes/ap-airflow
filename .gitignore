@@ -4,3 +4,4 @@ __pycache__
 dags
 logs
 plugins
+docker-compose.yaml

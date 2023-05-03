@@ -1,15 +1,15 @@
-from backports import configparser
+from backports.configparser import ConfigParser
 import subprocess
 
 
 from .init_settings import Config_File, Config_file_Exist
 
 
-class Start_Enviroment:
+class Start_Environment:
     """This will create config file to initialize"""
 
     def __init__(self) -> None:
-        self.config_object = configparser.ConfigParser()
+        self.config_object = ConfigParser()
         self.check_file = Config_file_Exist()
         self.file_exist = self.check_file.exist_file()
 

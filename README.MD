@@ -1,8 +1,15 @@
 # How to use this little env
 
+This simple app is intended to help beginners to Apache Airflow get ahead even with little knowledge of docker and docker compose.
+
+**Note**: **For this app to work, docker and docker compose must be installed before**
+
 - Download this repository
-- move to folder ap-airflow
-- open the folder ap-airflow with vscode or other
+- Move to ap-airflow folder
+- Open ap-airflow folder with vscode or other
+- Create your venv ``` python3 -m venv venv ```
+- Activate your venv ``` source venv/bin/activate ```
+- Install the required libs ``` pip install -r requirements.txt ```
 
 Then type this line ``` python3 -m run``` and wait for the end.
 
